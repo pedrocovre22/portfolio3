@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins" , sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url(https://wallup.net/wp-content/uploads/2018/09/26/61196-green-minimalistic-gradient-simple-colors-green-background-748x468.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header{
+    display: flex;
+    justify-content: left;
+    margin-left: 100px;
+    max-width: 100%;
+    align-items: center;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    background-color: transparent;
+  }
+
+  ::-webkit-scrollbar-track {
+    background-color: transparent; 
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #2ecc71; 
+    border-radius: 20px; 
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #27ae60;
+  }
+  
+  
+.cabeçalho-link{
+    display: flex;
+    justify-content: left;
+    gap: 3rem;
+    font-weight: 300;
+    cursor: pointer;  
+}
+
+.cabeçalho-link a{
+    color: #fff;
+    font-size: 25px;
+}
+
+.cabeçalho-link a:hover{
+    color:  #2ecc71;
+    transition: 0.3s all;
+}
+
+.carousel-container {
+    border-radius: 25px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 50px;
+    position: relative;
+    width: 800px;
+    height: 450px;
+    overflow: hidden;
+  }
+
+  .carousel-image {
+    position: absolute;
+    width: 800px;
+    height: 450px;
+    transition: transform 0.5s ease-in-out;
+  }
+
+  .carousel-previous,
+  .carousel-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 30px;
+    color: #2ecc71;
+    border-radius: 25px;
+    background-color: transparent;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+
+  .carousel-previous:hover,
+  .carousel-next:hover {
+    color: #27ae60 ;
+    border-radius: 25px;
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+
+  .carousel-previous {
+    left: 10px;
+  }
+
+  .carousel-next {
+    right: 10px;
+  }
+button{
+    color: #2ecc71;
+    background: transparent;
+    border:solid 1px #2ecc71;
+    padding: 5px;
+    border-radius: 25px;
+    font-size: 20px;
+    cursor: pointer;
+    width: 150px;
+}
+
+button:hover{
+    background-color: #2ecc71;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.container-text{
+    padding: 25px 0 0 130px;
+}
+
+.text h3{
+    color: #fff;
+    font-size: 15px;
+}
+
+.text h1{
+    color: #fff;
+    margin-top: 10px;
+    font-size: 30px;
+}
+
+.text .nomett{
+    font-size: 50px;
+}
+
+.text span{
+    color: #2ecc71; 
+}
+
+.text p{
+    color: #fff;
+    font-weight: 500;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.redes-social{
+    margin-top: 10px;
+}
+
+.redes-social a{
+    color: #ffffff;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+.btn{
+    margin-top: 15px;
+}
+
+.mt{
+    margin: 10px;
+    width: 1500px;
+    height: 100px;
+    font-size: 50px;
+    border-radius: 70px;
+}
+
+.pa{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 20px;
+    font-size: 30px;
+    height: 60px;
+    width: 400px;
+    border-radius: 75px;
+}
+
+.copy .copyrigth {
+    margin: 10px 0px 100px 0px;
+    display: flex;
+    justify-content: center;
+    font-size: 10px;
+    }
+
+.redesocial {
+    margin: 10px;
+    color: #2ecc71;
+    align-items: center;
+  }
+
+.redesocial li {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+  }
+  
+.redesocial li img {
+    width: 15px;
+    margin-right: 10px;
+  }
+
+  .whatsapp-link,
+.instagram-link {
+  color: #2ecc71; 
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+.whatsapp-link:hover,
+.instagram-link:hover {
+  color: #fff; 
+  text-decoration: underline; 
+  transition: 0.5s;
+}
+
+@media screen and (max-width:600px){
+    .cabeçalho-link {
+        display: none;
+    }
+    
+}
